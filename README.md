@@ -1,8 +1,13 @@
-# Corona
+# Track(ed) Together
 
-## Surveillance: Track(ed) Together
+This repository contains code and data from the Track(ed) Together Project. This project from the Dutch online magazine De Correspondent ran between May 1st 2020 and May 1st 2021. The purpose was to establish an overview of surveillance measures taken to combat the covid-19 pandemic and to get insights into the scope, use and effectiveness of those measures. The project was meant to last for a year on the assumption that the crisis would be over by then. That wasn't the case. 
 
-In this directory you can find everything related to the Track(ed) Together database. We're running a MongoDB database to keep track of the measurements taken by governments during the COVID-19 crisis. 
+It would be great if other people and organization could built on our dataset. Therefore we share our data and code with you. Feel free to use the data and code as you see fit, but it would be nice if you can attribute the data collection to us. All data have been frequently updated and verified. Data sources are provided as well. 
+
+If you want to get a sense of the type of stories or research you can do with this data, please take a look at some of our [stories at The Correspondent](https://thecorrespondent.com/collection/track-ed-together) or, in Dutch, at [De Correspondent](https://decorrespondent.nl/collectie/track-ed-together). 
+
+## About the data
+
 
 In the root you'll find two files:
 * **mongo_schema**: this file contains the MongoDB shell command that creates the validation JSON schema for the surveillance collection.
