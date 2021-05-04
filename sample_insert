@@ -1,0 +1,40 @@
+db.measures.insertOne({
+	form_id: "4jej29hpzsrehd8r4jej29hqb9bqkoyq",
+	expert: {
+		name: "Dimitri Tokmetzis",
+		expertise: "Journalist on this project",
+		email_address: "dimitri@decorrespondent.nl"
+	},
+	title: "Dutch contact tracing app",
+	summary: "The Dutch government will launch a contact tracing app that uses bluetooth to track phones nearby. When somebody is infected with Covid-19, it should be possible to trace and warn everybody who has come into close proximity. The app aims to stop the virus from spreading in an early stage.",
+	country: "NL",
+	surveillance_types: [
+		{
+			main_type: "Location surveillance (mapping, contact tracing etc)",
+			sub_type: [ "Individual contact tracing" ]
+		}
+	],
+	legal_base: true,
+	legislation: {
+		description: "AVG, the Dutch implementation of the GDPR",
+		pass_date: {
+			specificity: "day",
+			date: new Date("2019-05-01")
+		},
+		link: "https://decorrespondent.nl/gaat-een-app-wel-werken"
+	},
+	description: 'Everybody is encouraged to download an app that uses bluetooth to track what other phones are in close proximity. These phones emit an ephemeral token which is stored on the receiving phone. Once somebody is diagnosed with COVID-19 a signal is being send to all phones with the ephemeral codes. If your phone is carrying this code, you will get a warning that you have been in close proximity with somebody recently that has been tested positive. Then you can get tested yourself or go into quarantine. The goal is to stop outbreaks early on and to help the health officials find infected people sooner. The app only works when 60 percent of the population uses it.',
+	geographical_scope: "National",
+	start_date: {
+		specificity: "month",
+		date: new Date("2020-06-01"),
+		note: "Probably June 2020"
+	},
+	software_used: "Bluetooth Low Energy, decentralized databases, ephemeral bluetooth tokens. App is for Android, Windows Phone and iPhone.",
+	involved_companies: [ "Accenture", "DCTC" ],
+	enforcement_details: "Not yet. It's use is voluntary, but when not enough people use the phone, it could become mandatory. A new law is required then.",
+	link: "https://minez.nl/corona-app",
+	start_date_form: new Date("2020-04-17T13:05:00Z"),
+	submit_date_form: new Date("2020-04-17T13:15:12Z"),
+	network_id_form: "4b7320d356"
+})
