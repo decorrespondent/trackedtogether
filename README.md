@@ -8,7 +8,14 @@ If you want to get a sense of the type of stories or research you can do with th
 
 ## About the data
 
-The data has been manualy collected from public sources between May 1st 2020 en May 1st 2021. All data have been verified by different people. In the end, we collected information on approximately 650 surveillance measures worldwide.
+The data was manualy collected from public sources between May 1st 2020 en May 1st 2021 by several journalists (Lais Martens, Morgan Meaker and Dimitri Tokmetzis). All data have been verified. In the end, we collected information on approximately 650 surveillance measures worldwide. Here you can [find a list](https://github.com/decorrespondent/trackedtogether/blob/master/mongodb/dumps/_public_fields.txt) of collected fields.
+
+The data are available in several formats:
+1. [CSV dumps](https://github.com/decorrespondent/trackedtogether/tree/master/mongodb/dumps/public)
+2. A cleaned up [csv file](https://github.com/decorrespondent/trackedtogether/blob/master/public_data/tt_measures%20.csv) (with some data omitted)
+3. Or the [whole MongoDB set](https://github.com/decorrespondent/trackedtogether/tree/master/mongodb)
+
+## About the MongoDB
 
 In the root you'll find two files:
 * **mongo_schema**: this file contains the MongoDB shell command that creates the validation JSON schema for the surveillance collection.
@@ -32,3 +39,15 @@ To create dumps use these commands:
 **public**
 
 `mongoexport --db=surveillance --collection=measures --type=csv  --fieldFile=_dumps/_public_fields.txt --out=_dumps/public/$(date +%s).csv`
+
+## Some thoughts on possible research and data collection
+
+There is plenty of interesting research possible, like:
+* Analysis of companies providing surveillance technologies.
+* Comparisson of tracked together data with other measures as described in:
+  * [CoronaNet](https://www.coronanet-project.org/download.html): (Cheng et al, 2020)
+  * [CCCSL](https://github.com/amel-github/covid19-interventionmeasures): (Desvars-Larrive et al, 2020)
+  * [Oxford Covid Policy Tracker](https://github.com/OxCGRT/covid-policy-tracker): (Hale et al, 2021)
+* Once the crisis has abated, a more in-depth assessment of efficacy of the measures. 
+
+If you have any questions, please feel free to reach out to us.
