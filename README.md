@@ -1,3 +1,5 @@
+![picture alt](https://useruploads.cdn-thecorrespondent.com/image/wWTnZUtk-vZoO0H9u_7Hs4SKVZk=/1920x1080/tc-useruploads-images/a012b0df6cac4ece8aacc4561d7c5fd4.gif)
+
 # Track(ed) Together
 
 This repository contains code and data from the Track(ed) Together Project, a project from the online magazine De Correspondent that ran between May 1st 2020 and May 1st 2021. The purpose was to establish an overview of surveillance measures taken to combat the covid-19 pandemic and to get insights into the scope, use and effectiveness of those measures. The project was meant to last for a year on the assumption that the crisis would be over by then. That wasn't the case. 
