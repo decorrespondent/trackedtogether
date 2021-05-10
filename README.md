@@ -59,3 +59,5 @@ There is plenty of interesting research possible, like:
 * Once the crisis has abated, a more in-depth assessment of efficacy of the measures. 
 
 If you have any questions, please feel free to reach out to us.
+
+[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
