@@ -42,6 +42,12 @@ To create dumps use these commands:
 
 `mongoexport --db=surveillance --collection=measures --type=csv  --fieldFile=_dumps/_public_fields.txt --out=_dumps/public/$(date +%s).csv`
 
+## Notebooks
+
+We've added two notebooks with some code for your convenience. Of course the code could be made more pythonic, suggestions are welcome.
+* [Measure data](https://github.com/decorrespondent/trackedtogether/blob/master/notebooks/measure_data.ipynb) contains code to parse several datasets with covid-19 measures from several reliable sources.
+* [CoronaMelder](https://github.com/decorrespondent/trackedtogether/blob/master/notebooks/CoronaMelder_stats.ipynb) contains code snippets for analyzing several statistics concerning the Dutch contact tracing app CoronaMelder.
+
 ## Some thoughts on possible research and data collection
 
 There is plenty of interesting research possible, like:
