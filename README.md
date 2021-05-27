@@ -10,7 +10,7 @@ If you want to get a sense of the type of stories or research you can do with th
 
 ## About the data
 
-The data was manualy collected from public sources between May 1st 2020 en May 1st 2021 by several journalists (Lais Martens, Morgan Meaker and Dimitri Tokmetzis). All data have been verified. In the end, we collected information on approximately 650 surveillance measures worldwide. Here you can [find a list](https://github.com/decorrespondent/trackedtogether/blob/master/mongodb/dumps/_public_fields.txt) of collected fields.
+The data was manualy collected from public sources between May 1st 2020 en May 1st 2021 by several journalists (Lais Martens, Morgan Meaker and Dimitri Tokmetzis). Databasemanagement was done by Heleen Emanuel. All data have been verified. In the end, we collected information on approximately 650 surveillance measures worldwide. Here you can [find a list](https://github.com/decorrespondent/trackedtogether/blob/master/mongodb/dumps/_public_fields.txt) of collected fields.
 
 The data are available in several formats:
 1. [CSV dumps](https://github.com/decorrespondent/trackedtogether/tree/master/mongodb/dumps/public)
